@@ -16,11 +16,17 @@ export const FITBIT_OAUTH_CONFIG = {
   CALLBACK_URI: 'http://localhost:3000/callback',
   SCOPES: [
     'weight',
-    'sleep', 
+    'sleep',
     'profile',
     'activity',
     'heartrate',
-    'nutrition'
+    'nutrition',
+    'oxygen_saturation',
+    'respiratory_rate',
+    'temperature',
+    'cardio_fitness',
+    'electrocardiogram',
+    'irregular_rhythm_notifications'
   ].join(' ')
 } as const;
 
